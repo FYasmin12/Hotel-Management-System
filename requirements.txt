@@ -6,6 +6,7 @@ Django==5.2.7
 filelock==3.18.0
 fsspec==2025.5.1
 gpt4all==2.8.2
+gunicorn==23.0.0
 huggingface-hub==0.33.2
 idna==3.10
 packaging==25.0

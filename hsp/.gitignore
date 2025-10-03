@@ -1,0 +1,2 @@
+# Django files to ignore
+.env

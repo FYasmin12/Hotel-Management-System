@@ -11,6 +11,7 @@ huggingface-hub==0.33.2
 idna==3.10
 packaging==25.0
 pillow==11.3.0
+python-decouple==3.8
 python-dotenv==1.1.1
 PyYAML==6.0.2
 requests==2.32.4

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/4dcdb6ddc3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-black fixed-top" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+           <p><img src="images/logo-seapearl.png" alt="" width="80" height="24" class="d-inline-block align-text-top">Hotel Sea Pearl</p> 
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><p>Hotel Sea Pearl</p></h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"><P class="fs-3 text-white fw-bold bg-dark-subtle px-5 ">Home</P></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="form.html"><P class="fs-3 text-white fw-bold bg-dark-subtle px-5 ">Booking</P></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="room&suites.html"><P class="fs-3 text-white fw-bold bg-dark-subtle px-5 ">Room & Suites</P></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="resturent&bar.html"><P class="fs-3 text-white fw-bold bg-dark-subtle px-5 ">Restaurants & Bar</P></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><P class="fs-3 text-white fw-bold bg-dark-subtle px-5 ">Contact Us</P></a>
+                  </li>
+                
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      </header>
+
+      <main>
+      
+    <div>
+        <form class="row g-3 needs-validation m-5 p-5" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+              <div class="valid-tooltip">
+                Looks good
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Age</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+               
+              </div>
+            <div class="col-md-4 position-relative">
+                <label for="birthday">Birthdate</label>
+                <input type="date" class="form-control" id="validationTooltip02" name="birthdate"  value="Otto" required>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltipUsername" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Nationality</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                
+              </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">National Id number</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid id.
+                </div>
+              </div>
+              <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Contact Number</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                
+              </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label">Room</label>
+              <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+              
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip04" class="form-label">Room Type</label>
+                <select class="form-select" id="validationTooltip04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Single</option>
+                  <option>Double</option>
+                  <option>Muster Bed</option>
+                  <option>Sea View</option>
+                  <option>Hill View</option>
+                  <option>Garden view</option>
+                  
+                  
+                </select>
+                
+              </div>
+              
+              <div class="col-md-3 position-relative">
+                <label for="validationTooltip04" class="form-label">Days For Stay</label>
+                <select class="form-select" id="validationTooltip04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>One Day</option>
+                  <option>Two Days</option>
+                  <option>Three Days</option>
+                  <option>Four Days</option>
+                  <option>Five Days</option>
+                  
+                  
+                </select>
+                
+              </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+           
+    </div>
+</main>
+
+
+<footer class="h-5% w-100% bg-black text-white p-2">
+
+
+ <div class="text-center">
+
+   <h3>
+     Hotel Sea Pearl
+ </h1>
+
+ <p>Jaliapalong, Inani, Ukhia, Cox's Bazar - 4750, Bangladesh.<br>
+      +8801844016120, +8801844016001 ©2023.
+      </p>
+
+   <a href="https://www.facebook.com"> <i class="fa-brands fa-facebook-square text-white fa-2xl m-2"></i></a>
+   <a href="https://www.instagram.com"> <i class="fa-brands fa-instagram-square text-white fa-2xl m-2"></i></a>
+   <a href="https://www.twitter.com"> <i class="fa-brands fa-twitter-square text-white fa-2xl m-2"></i></a>
+   <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin m-2 text-white fa-2xl"></i></a>
+ </div>
+</footer>
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

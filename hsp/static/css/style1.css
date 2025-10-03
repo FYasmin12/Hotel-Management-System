@@ -1,0 +1,25 @@
+body{
+    font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size:50px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+h2{
+    
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Playfair Display', serif;
+}
+.space{
+    padding: 50px 0px 100px 0px;
+    margin-top: 80px;
+}

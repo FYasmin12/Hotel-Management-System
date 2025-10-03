@@ -1,0 +1,11 @@
+
+body{
+    font-family: 'Playfair Display', serif, 'Quicksand', sans-serif;
+    background-image: url("/static/Assets/Images/background.jpg") ;
+    background-size: cover;
+    background-position: no-repeat;
+    width: auto;
+    height: auto;
+}
+
+
